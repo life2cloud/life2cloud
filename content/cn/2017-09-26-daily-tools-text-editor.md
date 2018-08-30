@@ -6,7 +6,7 @@ slug: daily-tools-text-editor
 categories:
   - tutorial
 tags:
-  - daily-tools
+  - productivity tool
 
 ---
 

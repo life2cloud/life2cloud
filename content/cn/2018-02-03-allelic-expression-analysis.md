@@ -3,10 +3,11 @@ title: 整合基因组和转录组分析等位基因表达(正常人群)
 author: Jianfeng Li
 date: '2018-02-03'
 slug: jcb-allelic-expression-analysis
-categories: Journal Club
+categories: 
+  - Journal Club
 tags: 
-  - cancer
-  - methods
+  - RNA-seq
+  - bioinformatics
 ---
 
 ## 文献标题

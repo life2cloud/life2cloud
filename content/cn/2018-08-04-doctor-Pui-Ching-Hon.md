@@ -4,7 +4,9 @@ author: Jianfeng Li
 date: '2018-08-04'
 slug: doctor-Pui-Ching-Hon
 categories:
-  - Personage
+  - personage
+tags:
+  - Ching-Hon, Pui
 ---
 
 ![](https://github.com/Miachol/ftp/raw/master/files/images/pui.png)

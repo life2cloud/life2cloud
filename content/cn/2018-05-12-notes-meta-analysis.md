@@ -3,16 +3,17 @@ title: Meta分析读书笔记 （一）
 author: Jianfeng Li
 date: '2018-05-12'
 slug: note-meta-analysis-1
-categories: bioinformatics 
+categories: 
+  - note
 tags: 
-  - meta
+  - meta analysis
 ---
 
 ## 《系统评价、Meta-分析设计与实施方法》
 
 ### 书籍简介
 
-> [《系统评价、Meta-分析设计与实施方法》](http://item.jd.com/10556816.html)是一本由刘鸣编写的书籍，本书系统评价、Meta分析是循证医学重要的研究方法和最佳证据的重要来源之一，是当前临床医学各专业使用最频繁的研究工具之一。
+> [《系统评价、Meta-分析设计与实施方法》](http://item.jd.com/10556816.html)是一本由刘鸣编写的书籍，本书是系统评价、Meta分析是循证医学重要的研究方法和最佳证据的重要来源之一，是当前临床医学各专业使用最频繁的研究工具之一。
 
 ### 绪论
 

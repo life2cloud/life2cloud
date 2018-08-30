@@ -4,10 +4,11 @@ author: "Jianfeng Li"
 date: '2017-11-25'
 slug: cn-usage-of-configr
 output: rmarkdown::md_document
-tags: 
-  - daily-tools
 categories: 
   - tutorial
+tags: 
+  - configuration file
+  - configr
 ---
 
 ## 简介

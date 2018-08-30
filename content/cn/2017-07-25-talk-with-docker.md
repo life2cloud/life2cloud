@@ -7,7 +7,6 @@ categories:
   - tutorial
 tags:
   - docker
-  - guide
 ---
 
 

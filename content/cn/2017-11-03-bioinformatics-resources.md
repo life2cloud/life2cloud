@@ -6,7 +6,8 @@ slug: bioinformatics-resources
 categories:
   - tutorial
 tags:
-  - daily-tools
+  - curated list
+  - bioinformatics
 
 ---
 
@@ -46,6 +47,7 @@ tags:
 - [Skills](#skills)
 - [Institute](#institute-or-business-company)
 - [People](#people)
+- [Blog](#blog)
 - [Contributors](#contributors)
 
 </details>
@@ -325,6 +327,7 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [gradle](https://gradle.org/)
 - [ant](http://ant.apache.org/)
 - [maven](https://maven.apache.org/)
+- [Spack](https://github.com/spack/spack)
 
 #### Web Application Developement Framework
 
@@ -394,6 +397,18 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [Cancer3d](http://www.cancer3d.org/)
 - [Dsysmap](https://dsysmap.irbbarcelona.org/)
 - [CBS Prediction Servers](http://www.cbs.dtu.dk/services/)
+- [wANNOVAR](http://wannovar.wglab.org/): Public web service of ANNOVAR
+- [Harmonizome](http://amp.pharm.mssm.edu/Harmonizome): Search for genes or proteins and their functional terms extracted and organized from over a hundred publicly available resources
+- [GDA](http://gda.unimore.it/): A web-based tool that combines NCI60 uniquely large number of drug sensitivity data with CCLE and NCI60 gene mutation and expression profiles
+- [CLUE](https://clue.io/): Unravel biology with the world’s largest perturbation-driven gene expression dataset
+- [CMAP](https://portals.broadinstitute.org/cmap/): The Connectivity Map (also known as cmap) is a collection of genome-wide transcriptional expression data from cultured human cells treated with bioactive small molecules and simple pattern-matching algorithms that together enable the discovery of functional connections between drugs, genes and diseases through the transitory feature of common gene-expression changes.
+- [pssmsearch](http://slim.ucd.ie/pssmsearch/): a web application to discover novel protein motifs (SLiMs, mORFs, miniMotifs) and PTM sites
+- [bammmotif](https://bammmotif.mpibpc.mpg.de/): Bayesian Markov Models (BaMMs), a web server for de-novo motif discovery and regulatory sequence analysis
+- [LOLAweb](http://lolaweb.databio.org/): a containerized web server for interactive genomic locus overlap enrichment analysis
+- [GeNets](https://apps.broadinstitute.org/genets): a unified web platform for network-based genomic analyses
+- [HiCExplorer](https://hicexplorer.usegalaxy.eu/): a web server for reproducible Hi-C data analysis, quality control and visualization
+- [paintomics](http://www.paintomics.org/): a web resource for the pathway analysis and visualization of multi-omics data
+- [kinact](http://biosig.unimelb.edu.au/kinact/): a computational approach for predicting activating missense mutations in protein kinases
 
 ##### Clinical Annotation
 
@@ -404,6 +419,8 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [Cancer Hotspots](http://cancerhotspots.org/#/home)
 - [DisGeNET](http://www.disgenet.org/web/DisGeNET/menu)
 - [Cancer Biomarkers database](https://www.cancergenomeinterpreter.org/biomarkers)
+- [OncoKB](http://oncokb.org/): Precision Oncology Knowledge Base
+- [LncRNADisease](http://www.cuilab.cn/lncrnadisease): Not only a resource that curated the experimentally supported lncRNA-disease association data but also a platform that integrated tool(s) for predicting novel lncRNA-disease associatons
 
 ##### Noncoding RNA Related Database
 
@@ -414,6 +431,9 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [circRNADb](http://202.195.183.4:8000/circrnadb/circRNADb.php)
 - [exoRBase](http://www.exorbase.org/exoRBase/toIndex)
 - [EVLncRNAs](http://biophy.dzu.edu.cn/EVLncRNAs.)
+- [NONCODE](http://www.noncode.org/): an integrated knowledge database dedicated to non-coding RNAs (excluding tRNAs and rRNAs)
+- [MiTranscriptome](http://www.mitranscriptome.org/):  a catalog of human long poly-adenylated RNA transcripts derived from computational analysis of high-throughput RNA sequencing (RNA-Seq) data from over 6,500 samples spanning diverse cancer and tissue types
+- [FANTOM CAT](http://fantom.gsc.riken.jp/cat/): an atlas of human long non-coding RNAs with accurate 5’ ends
 
 ##### eQTL Related Database
 
@@ -467,6 +487,8 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [MECAT](https://github.com/xiaochuanle/MECAT)
 - [DART](https://github.com/hsinnan75/DART)
 - [rHAT](https://github.com/HIT-Bioinformatics/rHAT)
+- [taxmaps](https://github.com/nygenome/taxmaps): large DNA/RNA metagenomics samples
+- [MARVEL](https://github.com/schloi/MARVEL): consists of a set of tools that facilitate the overlapping, patching, correction and assembly of noisy (not so noisy ones as well) long reads.
 
 ##### Variant Detection (SNVs, INDELs, SVs)
 
@@ -496,6 +518,16 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [SV2](https://github.com/dantaki/SV2)
 - [facets](https://github.com/mskcc/facets)
 - [MutScan](https://github.com/OpenGene/MutScan)
+- [svaba](https://github.com/walaj/svaba): structural variation and indel detection by local assembly
+- [manta](https://github.com/Illumina/manta): structural variant and indel caller using mapped sequencing data
+- [JAFFA](https://github.com/Oshlack/JAFFA): a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts, then searches for gene fusions
+- [Picky](https://github.com/TheJacksonLaboratory/Picky): structural variants pipeline for long reads
+- [CREST](http://www.stjuderesearch.org/site/lab/zhang): a algorithm for detecting genomic structural variations at base-pair resolution using next-generation sequencing data
+- [Control-FREEC](http://boevalab.com/FREEC/): a tool for detection of copy-number changes and allelic imbalances (including LOH) using deep-sequencing data
+- [Strelka](ftp://strelka@ftp.illumina.com/): accurate somatic small-variant calling from sequenced tumor–normal sample pairs
+- [GISTIC2](http://portals.broadinstitute.org/cgi-bin/cancer/publications/pub_paper.cgi?mode=view&paper_id=216&p=t): facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers
+- [BreaKmer](https://github.com/ccgd-profile/BreaKmer): A method to identify structural variation from sequencing data in target regions
+- [deTiN](https://github.com/broadinstitute/deTiN): DeTiN is designed to measure tumor-in-normal contamination and improve somatic variant detection sensitivity when using a contaminated matched control.
 
 ##### Variant Annotation
 
@@ -507,21 +539,20 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [vcfanno](https://github.com/brentp/vcfanno)
 - [pcgr](https://github.com/sigven/pcgr)
 - [annovarR](https://github.com/JhuangLab/annovarR)
-
+- [OncodriveCLUST](http://bg.upf.edu/group/projects/oncodrive-clust.php): exploiting the positional clustering of somatic mutations to identify cancer genes
 
 ##### Variant Visualization (SNVs, INDELs, SVs)
 
 - [ProteinPaint](https://proteinpaint.stjude.org/)
-
-
 - [AGFusion](https://github.com/murphycj/AGFusion)
 - [GenomeUPlot](https://github.com/gaitat/GenomeUPlot)
 - [BreakPointSurveyor](https://github.com/ding-lab/BreakPointSurveyor)
 - [chimeraviz](https://github.com/stianlagstad/chimeraviz)
 - [Oncoprinter](http://www.cbioportal.org/oncoprinter.jsp)
 - [MutationMapper](http://www.cbioportal.org/mutation_mapper.jsp)
-
-
+- [pv](https://github.com/biasmv/pv): 3D structure visualization in WEB
+- [g2s](https://github.com/genome-nexus/g2s): mappings between protein sequence positions and PDB 3D protein structure models
+- [NGB](https://github.com/epam/NGB): structural Variations (SVs) visualization capabilities, high performance, scalability, and cloud data support
 
 ##### Variant Screen
 
@@ -545,12 +576,20 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 
 - [viral-ngs](https://github.com/broadinstitute/viral-ngs)
 - [qap](https://github.com/mingjiewang/qap)
+- [ROP](https://github.com/smangul1/rop): discovering the source of all RNA-seq reads, including those originating from repeat sequences, recombinant B and T cell receptors, and microbial communities
+- [ViFi](https://github.com/namphuon/ViFi): Pipeline for identifying viral integration and fusion mRNA reads from NGS data
 
 ##### Single Cell
 
 - [seurat](https://github.com/satijalab/seurat)
 - [SCnorm](http://www.biostat.wisc.edu/~kendzior/SCNORM/)
 - [dropClust](https://github.com/debsin/dropClust)
+- [scran](https://bioconductor.org/packages/release/bioc/html/scran.html): batch effect adjust
+- [trendsceek](https://github.com/edsgard/trendsceek): spatial expression trends in single-cell gene expression data
+- [scRNA-tools](https://www.scrna-tools.org/): a database of software tools for the analysis of single-cell RNA-seq data.
+- [awesome-single-cell](https://github.com/seandavi/awesome-single-cell): list of software packages (and the people developing these methods) for single-cell data analysis, including RNA-seq, ATAC-seq, etc.
+- [SAVER](https://github.com/mohuangx/SAVER): SAVER (Single-cell Analysis Via Expression Recovery) implements a regularized regression prediction and empirical Bayes method to recover the true gene expression profile in noisy and sparse single-cell RNA-seq data.
+
 
 ##### Protein Data Related
 
@@ -598,6 +637,7 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [vcftools](https://github.com/vcftools/vcftools)
 - [bcftools](https://github.com/samtools/bcftools)
 - [bamtools](https://github.com/pezmaster31/bamtools)
+- [maftools](https://github.com/PoisonAlien/maftools)
 - [bamUtil](https://github.com/statgen/bamUtil)
 - [vcflib](https://github.com/vcflib/vcflib)
 - [samstat](https://sourceforge.net/projects/samstat)
@@ -618,6 +658,16 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [CIBERSORT](https://cibersort.stanford.edu/index.php)
 - [biobloom](https://github.com/bcgsc/biobloom)
 - [APAtrap](https://apatrap.sourceforge.io)
+- [phenopredict](https://github.com/leekgroup/phenopredict): predicting phenotype sample information using gene expression
+- [recount](https://github.com/leekgroup/recount)
+- [bart](http://faculty.virginia.edu/zanglab/bart/): predicting functional transcription factors using gene set or a ChIP-seq dataset as input
+- [LSMM (Latent Sparse Mixed Model)](https://github.com/mingjingsi/LSMM): integrating functional annotations with genome-wide association studies
+- [vcf2maf](https://github.com/mskcc/vcf2maf/): Convert a VCF into a MAF, where each variant is annotated to only one of all possible gene isoforms
+- [r2d3](https://github.com/rstudio/r2d3): R Interface to D3 Visualizations
+- [liteq](https://github.com/r-lib/liteq): Serverless R message queue using SQLite
+- [ReLaXed](https://github.com/RelaxedJS/ReLaXed): Create PDF documents using web technologies
+- [dash](https://github.com/jonocarroll/dash): RStudio Addin to Run a Selection as a Background Job
+- [threadpool](https://github.com/rdpeng/threadpool): Parallel Processing in R using a Thread Pool
 
 ##### Statistical and Visualization
 
@@ -633,6 +683,13 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [chromVAR](https://github.com/GreenleafLab/chromVAR)
 - [echarts](https://github.com/ecomfe/echarts)
 - [plotly](https://github.com/plotly/plotly.js)
+- [qvalue](https://github.com/StoreyLab/qvalue): estimating q-values and false discovery rate quantities
+- [GenVisR](https://github.com/griffithlab/GenVisR): genome data visualizations
+- [r-color-palettes](https://github.com/EmilHvitfeldt/r-color-palettes): Comprehensive list of color palettes available in r
+- [sequenza](http://www.cbs.dtu.dk/biotools/sequenza/): a novel set of tools providing a fast python script to genotype cancer samples, and an R package to estimate cancer cellularity, ploidy, genome wide copy number profile and infer for mutated alleles
+- [opencpu](https://github.com/opencpu/opencpu): A system for embedded scientific computing and reproducible research with R
+- [ggthemr](https://github.com/cttobin/ggthemr): Themes for ggplot2
+- [paletter](https://github.com/AndreaCirilloAC/paletter): Build your ggplot2 palette from a picture
 
 ##### Text editor and IDE
 
@@ -802,6 +859,37 @@ Thanks this work: Hadfield, J. & Retief, J. A profusion of confusion in NGS meth
 - [Brendan J. Frey](http://www.psi.toronto.edu/~frey/)
 - [Jinghui Zhang](https://www.stjude.org/directory/z/jinghui-zhang.html)
 - [Ira M. Hall](http://genome.wustl.edu/people/individual/ira-hall/)
+
+## Blog
+
+- [Jianfeng Li's blog](https://life2cloud.com/)
+- [RNA-seq Blog](https://www.rna-seqblog.com/)
+- [Jianming Zeng's blog](http://www.bio-info-trainee.com/)
+- [Yihui Xie's blog](https://yihui.name/)
+- [Fei Zhao's blog](http://kaopubear.top/)
+- [Mengyuan Shen's blog](http://shemy.site/)
+- [Boqiang Hu's blog](http://huboqiang.cn/)
+- [Bob's Blog](https://www.tanboyu.com/)
+- [Homolog.us - Frontier in Bioinformatics](http://www.homolog.us/blogs/)
+- [r-bloggers](https://www.r-bloggers.com/)
+- [DataTau](http://www.datatau.com/)
+- [Bits of DNA, Lior Pachter](https://liorpachter.wordpress.com/)
+- [Next Generation Technologist](http://www.yuzuki.org/)
+- [Simply Statistics](https://simplystatistics.org/)
+- [Massgenomics](http://massgenomics.org/)
+- [OpenHelix](http://blog.openhelix.com/)
+- [QIAGEN](https://www.qiagenbioinformatics.com/blog/)
+- [Loman Labs Blog](http://lab.loman.net/)
+- [Living in an Ivory Basement Stochastic thoughts on science, testing, and programming](http://ivory.idyll.org/blog/)
+- [Neil Saunders](https://nsaunders.wordpress.com/blog/)
+- [Mike Love’s blog](https://mikelove.wordpress.com/)
+- [Ewan Birney](https://ewanbirney.wordpress.com/)
+- [In between lines of code](https://flxlexblog.wordpress.com/)
+- [Heng Li's blog](http://lh3.github.io/)
+- [MacArthur Lab](https://macarthurlab.org/blog/)
+- [Blue Collar Bioinformatics](https://bcbio.wordpress.com/)
+- [Simpson Lab](http://simpsonlab.github.io/blog/)
+- [Bits of Bioinformatics](https://pmelsted.wordpress.com/)
 
 ### Contributors
 

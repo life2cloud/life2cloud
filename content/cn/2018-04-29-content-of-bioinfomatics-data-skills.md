@@ -2,9 +2,11 @@
 title: 《Bioinformatics Data Skills》目录一览
 date: '2018-04-29'
 slug: content-of-bioinformatics-data-skills
-categories: Books
+categories: 
+  - books
 tags: 
   - bioinformatics
+  - books
 ---
 
 ## 概览

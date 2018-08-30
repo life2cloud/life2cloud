@@ -1,6 +1,7 @@
 ---
-title: Homepage
-date: '2017-07-20'
+title: 初心 | Stay true to the mission
+author: Jianfeng Li
+date: '2018-08-30'
 disable_mathjax: true
 disable_highlight: true
 ---

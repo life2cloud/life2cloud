@@ -6,12 +6,9 @@ slug: pecan_data_portal_1
 categories:
   - tutorial
 tags:
-  - mutations
-  - expression
-  - fusion gene
-  - mutation heatmap
-  - transcriptional regulation
+  - web
   - visualization
+  - bioinformatics
 ---
 
 ## 引言

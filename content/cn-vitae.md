@@ -1,14 +1,18 @@
 ---
 title: "简历"
 slug: "cn/vitae"
+author: Jianfeng Li
+date: '2018-08-30'
 disable_comments: true
+tags:
+  - viate
 ---
 
 # 李剑峰
 
 ## 联系方式
 
-Email：lee_jianfeng@sjtu.edu.cn；主页：<http://www.life2cloud.com>；现正攻读上海交通大学硕士研究生。
+Email：lee_jianfeng@sjtu.edu.cn；主页：<http://www.life2cloud.com>；现正攻读上海交通大学博士研究生。
 
 ## 研究兴趣
 
@@ -16,7 +20,8 @@ Email：lee_jianfeng@sjtu.edu.cn；主页：<http://www.life2cloud.com>；现正
 
 ## 教育背景
 
-- 2015.09 ~  上海交通大学医学院，生物信息学
+- 2018.09 ~   上海交通大学，生物信息学
+- 2015.09 ~ 2018.07  上海交通大学医学院，理学硕士
 - 2011.09 ~ 2015.07 哈尔滨工业大学，工学学士
 
 ## 计算机水平

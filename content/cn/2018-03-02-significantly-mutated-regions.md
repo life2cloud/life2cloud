@@ -3,9 +3,11 @@ title: 基因中不限肿瘤类型的显著突变区域
 author: Jianfeng Li
 date: '2017-09-07'
 slug: jcb-significantly-mutated-regions
-categories: Journal Club
+categories: 
+  - Journal Club
 tags: 
   - cancer
+  - bioinformatics
 ---
 
 ## 文献标题

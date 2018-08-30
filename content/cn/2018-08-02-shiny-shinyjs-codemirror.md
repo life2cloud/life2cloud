@@ -4,9 +4,11 @@ author: Jianfeng Li
 date: '2018-08-02'
 slug: shiny-shinyjs-mirrorcode
 categories:
-  - bioinformatics
+  - tutorial
 tags:
-  - Shiny
+  - shiny
+  - shinyjs
+  - codemirror
 ---
 
 ## 简介

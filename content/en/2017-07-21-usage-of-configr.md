@@ -7,6 +7,7 @@ categories:
   - tutorial
 tags:
   - configr
+  - configuration file
 ---
 
 configr is an integrated parser package that json, ini, yaml and toml format files can now be processed. The vignette will walk you through the basics of using configr to extend existing parser in R.

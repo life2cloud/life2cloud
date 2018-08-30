@@ -6,10 +6,8 @@ slug: sci-figures
 categories:
   - tutorial
 tags:
-  - AI
-  - illustrator
-  - Photoshop
-  - SCI
+  - plot
+  - sci
 ---
 
 

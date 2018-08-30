@@ -7,6 +7,7 @@ categories:
   - tutorial
 tags:
   - configr
+  - configuration file
 ---
 
 

@@ -3,9 +3,11 @@ title: Git Handbook
 author: Jianfeng Li
 date: '2018-05-06'
 slug: git-handbook
-categories: code
+categories: 
+  - handbook
 tags: 
   - git
+  - handbook
 ---
 
 ## Git 基本操作指南

@@ -1,7 +1,11 @@
 ---
 title: "Curriculum Vitae"
 slug: "en/vitae"
+author: Jianfeng Li
+date: '2018-08-30'
 disable_comments: true
+tags:
+  - viate
 ---
 
 # Jianfeng Li
@@ -16,8 +20,9 @@ Genomics, Bioinformatics, Data visualization, Data mining
 
 ## Education Background
 
-- 2015.09 ~  Shanghai Jiaotong University School of Medicine, Bioinformatics
-- 2011.09 ~ 2015.07 Harbin Institute of Technology, Bachelor of Engineering
+- 2018.09 ~ Shanghai Jiaotong University School, Bioinformatics 
+- 2015.09 ~ 2018.07 Shanghai Jiaotong University School of Medicine, M.S.
+- 2011.09 ~ 2015.07 Harbin Institute of Technology, B.E.
 
 ## Computer Skill
 

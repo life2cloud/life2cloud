@@ -6,7 +6,7 @@ slug: daily-tools-remote-client
 categories:
   - tutorial
 tags:
-  - daily-tools
+  - productivity tool
 
 ---
 ## 引言

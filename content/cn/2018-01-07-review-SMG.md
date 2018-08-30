@@ -3,13 +3,12 @@ title: 肿瘤驱动基因和显著突变基因识别的方法学总结
 author: Jianfeng Li
 date: '2018-01-07'
 slug: jcb-review-smg
-categories: Journal Club
+categories: 
+  - Journal Club
 tags: 
-  - Cancer
+  - cancer
   - review
-  - driver
-  - mutations
-  - methods
+  - bioinformatics
 ---
 
 ## 文献标题

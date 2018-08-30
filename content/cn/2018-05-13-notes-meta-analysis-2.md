@@ -3,9 +3,10 @@ title: Meta分析读书笔记 （二）
 author: Jianfeng Li
 date: '2018-05-13'
 slug: note-meta-analysis-2
-categories: bioinformatics 
+categories: 
+  - note 
 tags: 
-  - meta
+  - meta analysis
 ---
 
 ## CRAN Task View: Meta-Analysis

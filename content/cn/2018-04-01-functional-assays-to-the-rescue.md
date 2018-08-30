@@ -2,9 +2,12 @@
 title: 'Variant Interpretation: Functional Assays to the Rescue'
 date: '2018-04-01'
 slug: functional-assays-to-the-rescue
-categories: Journal Club
+categories: 
+  - Journal Club
 tags: 
   - cancer
+  - bioinformatics
+  - functional assay
 ---
 
 ## 文献标题
