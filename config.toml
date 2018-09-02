@@ -59,7 +59,7 @@ rssLimit = 30
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "Jian-Feng Li"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["Hugo", "theme","even"]
-  description = "Hugo theme even example site."
+  description = "Jianfeng's personal blog based on the blogdown and hugo."
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 100
