@@ -60,8 +60,8 @@ As lead author:
 
 #### Journal
 
-- Liu YF, Wang BY, Zhang WN, Huang JY, Li BS, Zhang M, Jiang L, **Li JF**, Wang MJ, Dai YJ, Zhang ZG, Wang Q, Kong J, Chen B, Zhu YM, Weng XQ, Shen ZX, Li JM, Wang J, Yan XJ, Li Y, Liang YM, Liu L, Chen XQ, Zhang WG, Yan JS, Hu JD, Shen SH, Chen J, Gu LJ, Pei D, Li Y, Wu G, Zhou X, Ren RB, Cheng C, Yang JJ, Wang KK, Wang SY, Zhang J, Mi JQ, Pui CH, Tang JY, Chen Z, Chen SJ. Genomic Profiling of Adult and Pediatric B-cell Acute Lymphoblastic Leukemia. **EBioMedicine**. 2016 Jun;8:173-83. doi: 10.1016/j.ebiom.2016.04.038. Epub 2016 May 13. PubMed PMID: 27428428; PubMed Central PMCID: PMC4919728.
-- Bing Chen, Lu Jiang, Meng-Ling Zhong, **Jian-Feng Li**, Ben-Shang Li, Li-Jun Peng, Yu-Ting Dai, Bo-Wen Cui, Tian-Qi Yan, Wei-Na Zhang, Xiang-Qin Weng, Yin-Yin Xie, Jing Lu, Rui-Bao Ren, Su-Ning Chen, Jian-Da Hu, De-Pei Wu, Zhu Chen, Jing-Yan Tang, Jin-Yan Huang, Jian-Qing Mi, and Sai-Juan Chen. Identification of fusion genes and characterization of transcriptome features in T-cell acute lymphoblastic leukemia. **Proceedings of the National Academy of Sciences**. 2017. doi:10.1073/pnas.1717125115. PubMed PMID: 29279377.
+- #Liu YF, #Wang BY, #Zhang WN, #Huang JY, #Li BS, Zhang M, Jiang L, **Li JF**, Wang MJ, Dai YJ, Zhang ZG, Wang Q, Kong J, Chen B, Zhu YM, Weng XQ, Shen ZX, Li JM, Wang J, Yan XJ, Li Y, Liang YM, Liu L, Chen XQ, Zhang WG, Yan JS, Hu JD, Shen SH, Chen J, Gu LJ, Pei D, Li Y, Wu G, Zhou X, Ren RB, Cheng C, Yang JJ, Wang KK, Wang SY, Zhang J, Mi JQ, Pui CH, Tang JY, Chen Z, Chen SJ. Genomic Profiling of Adult and Pediatric B-cell Acute Lymphoblastic Leukemia. **EBioMedicine**. 2016 Jun;8:173-83. doi: 10.1016/j.ebiom.2016.04.038. Epub 2016 May 13. PubMed PMID: 27428428; PubMed Central PMCID: PMC4919728.
+- #Bing Chen, #Lu Jiang, #Meng-Ling Zhong, **#Jian-Feng Li**, #Ben-Shang Li, Li-Jun Peng, Yu-Ting Dai, Bo-Wen Cui, Tian-Qi Yan, Wei-Na Zhang, Xiang-Qin Weng, Yin-Yin Xie, Jing Lu, Rui-Bao Ren, Su-Ning Chen, Jian-Da Hu, De-Pei Wu, Zhu Chen, Jing-Yan Tang, Jin-Yan Huang, Jian-Qing Mi, and Sai-Juan Chen. Identification of fusion genes and characterization of transcriptome features in T-cell acute lymphoblastic leukemia. **Proceedings of the National Academy of Sciences**. 2017. doi:10.1073/pnas.1717125115. PubMed PMID: 29279377.
 - An integrated quasispecies analysis pipeline towards precision medicine in viral infectious diseases. (Co-first, Submitted, 2018)
 - BioInstaller: a comprehensive R package to integrate bioinformatics resources. (Co-first, Submitted, 2018)
 - The transcriptional landscape of B-precursor acute lymphoblastic leukemia: An international collaborative study of 1,223 cases (Co-first, Submitted, 2018)
@@ -71,7 +71,10 @@ As lead author:
 
 #### Journal
 
-LI Jian-feng, YAN Tian-qi, CUI Bo-wen, KONG Jie, WANG Shu, CHEN Bing, HUANG Jin-yan. Analysis method based on the gene-panel sequencing data. Journal of Shanghai Jiaotong University(Medical Science). 2017, 37(11): 1575-
+- **LI Jian-feng**, YAN Tian-qi, CUI Bo-wen, KONG Jie, WANG Shu, CHEN Bing, HUANG Jin-yan. Analysis method based on the gene-panel sequencing data. Journal of Shanghai Jiaotong University(Medical Science). 2017, 37(11): 1575-
+- YAN Tian-qi, CHEN Li-wei, ZHU Yong-mei, **LI Jian-feng**, DAI Yu-ting, CUI Shu-Ya, 
+JIANG Lu, CHEN Bing, HUANG Jin-yan
+. A knowledge database of gene fusion and mutation in acute lymphoblastic leukemia. Journal of Shanghai Jiaotong University(Medical Science). 2018, In Press
 
 #### Colloquium papers
 

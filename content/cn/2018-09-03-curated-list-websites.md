@@ -2,6 +2,7 @@
 title: 一个聚合和分类的常用网站书签列表
 author: Jianfeng Li
 date: '2018-09-03'
+slug: 'curated-list-websites'
 categories: 
   - tutorial
 tags: 
@@ -65,6 +66,12 @@ tags:
 - [Samtools - Documentation](http://www.htslib.org/doc/#manual-pages)
 - [GATK | Index](https://software.broadinstitute.org/gatk/documentation/)
 - [菜鸟教程 - 学的不仅是技术，更是梦想！](http://www.runoob.com/)
+- [网易公开课](https://open.163.com/)
+- [网易云课堂](https://study.163.com/)
+- [腾讯课堂](https://ke.qq.com/)
+- [中国大学Mooc](https://www.icourse163.org/)
+- [慕课网](https://www.imooc.com/)
+- [Coursera](https://www.coursera.org/)
 
 ## 文章与博客
 
@@ -232,8 +239,7 @@ tags:
 - [Google Analytics（分析）报告 | Google Developers](https://developers.google.cn/analytics/devguides/reporting/?hl=zh-cn)
 - [#1 Free Web & Mobile Analytics Software](https://matomo.org/)
 
-
 ## 附录
 
 - [notion版本](https://www.notion.so/sjtu/2018-09-02-curated-list-websites-1d1187dfc4b744aca960ce365f294d44)
-- [博客版本](https://life2cloud.com/cn/2018/09/一个聚合和分类的常用网站书签列表/)
+- [博客版本](https://life2cloud.com/cn/2018/09/curated-list-websites/)
