@@ -15,6 +15,8 @@ tags:
 
 推荐你阅读这篇博文的[notion](https://www.notion.so/sjtu/2018-09-02-curated-list-websites-1d1187dfc4b744aca960ce365f294d44)版本（因为notaion可以嵌入书签，就可以显示网站一些元信息），而Markdown版本就只有这个网站的链接了。
 
+最近，偶然发现了一个叫[Memex](https://worldbrain.io/)的浏览器插件，它支持对浏览过或者打了书签的网页进行全文索引，结合标签和合集的分类功能，基本可以满足稍后阅读和网页收藏的所有需求，唯一的不足就是目前还不支持云同步。另外，再利用[Paste](https://pasteapp.me/)管理非浏览器界面的稍后阅读和分类摘录（文字、图片、文件统统都可以）非常方便。
+
 ## 代码托管
 
 ### git
