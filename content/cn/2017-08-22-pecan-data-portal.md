@@ -115,7 +115,7 @@ ProteinPaint的基因突变模式图可以说是目前市面上最好看的一�
 
 **常见基因组异常类型：**
 
-- Missense (错意突变)
+- Missense (错义突变)
 - Frameshift（框移突变，包括插入和缺失）
 - Nonsense（无义突变）
 - Splice（剪接位点突变）
