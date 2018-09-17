@@ -22,7 +22,7 @@ At present, I mainly engaged in NGS data integration analysis and bioinformatics
 
 项目|简介
 ---|---
-[BioInstaller](https://life2cloud.com/tools/bioinstaller/)| 用于下载/安装生物信息学软件/数据库/文件的R包
+[BioInstaller](https://life2cloud.com/tools/bioinstaller/)| 一个用于创建交互式、可重现的生物数据分析应用的综合类R包
 [ngstk](https://life2cloud.com/tools/ngstk)|二代测序数据分析工具箱，主要开发方向为数据质量控制、数据格式转换、数据可视化及其颜色主题
 [annovarR](https://life2cloud.com/tools/annovarR) | 用于生物信息学数据注释的框架
 [iseq](https://github.com/JhuangLab/iseq)| 基于基因Panel测序数据的整合分析方法
