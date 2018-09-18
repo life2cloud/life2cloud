@@ -25,7 +25,7 @@ tags:
 - Shiny应用的构建：你可以直接使用BioInstaller的Shiny而不用再去开发一些基础功能，比如文件上传与管理、插件系统、任务队列和提交等等。你只需要为你的核心功能构建一个TOML格式的数据分析插件即可（核心功能可以由一个R函数或者R命令封装）。
 - 可重现的数据分析：我们提供一整套用于可重现的数据分析方式，输出文件和日志可追溯、提供整合Shiny，[Opencpu](https://www.opencpu.org/)和[Rstudio](https://www.rstudio.com/)服务的Docker容器。
 
-这个R包仍然在不断完善和迭代，希望可以大家提供一个免费、开源的的Shiny分析环境。
+这个R包仍然在不断完善和迭代，希望可以给大家提供一个免费、开源的的Shiny分析环境。
 
 ## 未来的开发方向
 
@@ -33,7 +33,7 @@ tags:
 
 - 任务管理以及队列系统的进一步完善和提高（参考Galaxy）
 - 更多的数据分析和可视化插件（比如WES/RNA-seq/Chip-seq/ATAC-seq等）
-- Shiny插件管理界面（现在是通过一修改YAML格式的文件）
+- Shiny插件管理界面（现在是通过修改YAML格式的文件）
 - 基于TOML文件对生物信息资源的进一步收集、分类以及镜像化
 - ......
 
@@ -53,14 +53,15 @@ Here, we established a new platform to construct interactive and reproducible bi
 
   - Easy-to-use
   - User-friendly Shiny application
-  - An integrative platform of Databases and bioinformatics resources
+  - An integrative platform of databases and bioinformatics resources
   - Open source and completely free
   - One-click to download and install bioinformatics resources (via R, Shiny or Opencpu REST APIs)
   - More attention for those software and database resources that have not been
     by other tools
   - Logging
   - System monitor
-  - Task submitting system
+  - Task submission
+  - Long-time computation
   - Parallel tasks
 
 **Field**
