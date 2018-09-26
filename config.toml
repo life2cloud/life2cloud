@@ -120,16 +120,16 @@ rssLimit = 30
     warn = 180              # Display warning if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示警告
 
   [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-    owner = "Miachol"              # Your GitHub ID
-    repo = "life2cloud-comments"               # The repo to store comments
-    clientId = "b4d13caeaf9755c945ab"           # Your client ID
-    clientSecret = "007205a7e47059eb4c68d40cb1caaac4f92b5a4f"       # Your client secret
-
-  [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
     owner = ""              # Your GitHub ID
     repo = ""               # The repo to store comments
-    clientId = ""
-    clientSecret = ""
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+
+  [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+    owner = "Miachol"              # Your GitHub ID
+    repo = "life2cloud-comments"               # The repo to store comments
+    clientId = "b4d13caeaf9755c945ab"
+    clientSecret = "007205a7e47059eb4c68d40cb1caaac4f92b5a4f"
 
   [params.flowchartDiagrams]# see https://blog.olowolo.com/example-site/post/js-flowchart-diagrams/
     enable = false
