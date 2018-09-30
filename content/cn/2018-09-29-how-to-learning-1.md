@@ -4,7 +4,7 @@ author: Jianfeng Li
 date: '2018-09-29'
 slug: how-to-learning-1
 categories: ["book"] 
-ags: ["learning", "method"]
+tags: ["learning", "method"]
 ---
 
 ## 作者简介
