@@ -11,7 +11,7 @@ tags: ["R", "DNA microarrays"]
 
 ## 导言
 
-[DNA微阵列](https://en.wikipedia.org/wiki/DNA_microarray) (DNA Microarrays)技术/基因芯片（Genechip）技术是一种在上世纪80年代开始研制，90年代成熟和推广并广泛应用于生物学检测技术。目前英文中大多使用DNA微阵列（DNA Microarrays）来表示基因芯片，而Genechip已经被美国[昂飞（Affymetrix）公司](https://en.wikipedia.org/wiki/Affymetrix)申请商用专利。
+[DNA微阵列](https://en.wikipedia.org/wiki/DNA_microarray) (DNA Microarrays)技术/基因芯片（Genechip）技术是一种在上世纪80年代开始研制，90年代成熟和推广并得到广泛应用的生物学检测技术。目前英文中大多使用DNA微阵列（DNA Microarrays）来表示基因芯片，而Genechip已经被美国[昂飞（Affymetrix）公司](https://en.wikipedia.org/wiki/Affymetrix)申请商用专利。
 
 DNA微阵列（基因芯片）技术的出现是生物学相关领域的一个里程碑事件。它使得生物学、医学等领域研究快速发展，与之相关的科学论文数以万记（未统计具体数字，表示很多的意思）。而且，这项产生于上个世纪的基因芯片技术目前仍然是生物科学领域最具应用价值的技术之一（80年代-克隆，90年代-PCR，21世纪-芯片）。
 
@@ -43,11 +43,11 @@ DNA微阵列（基因芯片）技术和传统的[Southern杂交](https://baike.b
 
 - 通过学习**DNA微阵列（基因芯片）技术**的相关概念、基本原理、数据分析方法及其注意事项，将是你入门[生物信息学](https://en.wikipedia.org/wiki/Bioinformatics)的最好的一次机会。
 
-- 了解芯片技术有助于大家进一步学习生物信息学涉及到的其他新型技术，比如全外显子测序和靶向测序、全基因测序、全转录组测序、单细胞测序等。
+- 了解芯片技术有助于大家进一步学习生物信息学涉及到的其他新型技术，比如全外显子测序和靶向测序、全基因组测序、全转录组测序、单细胞测序等。
 
 - 在学习相关的数据分析过程中，你将会积累一部分编程经验（如R和Bash），这对于以后熟练掌握编程技术也非常有意义。而编程技术的掌握与否则是衡量一个人生物信息学入门的最基本的指标之一。
 
-- 掌握它之后，你可以利用公共芯片数据进行数据挖掘，用于验证你想法或者发现新的知识。你现在可以搜索一下[GEO（Gene Expression Omnibus）](https://www.ncbi.nlm.nih.gov/geo)中和微阵列（基因芯片）相关的数据，试着回答一下上面的数据都有哪些类型？
+- 掌握它之后，你可以利用公共芯片数据进行数据挖掘，用于验证你的想法或者发现新的知识。你现在可以搜索一下[GEO（Gene Expression Omnibus）](https://www.ncbi.nlm.nih.gov/geo)中和微阵列（基因芯片）相关的数据，试着回答一下上面的数据都有哪些类型？
 
 ### 两个“简单”问题
 
@@ -57,7 +57,7 @@ DNA微阵列（基因芯片）技术和传统的[Southern杂交](https://baike.b
 
 我建议在这里你可以稍微发动一下你的想象力，尽量基于你已有的知识或者凭空猜一猜看。
 
-如果你已经有自己的答案或者实在想不出来则可以继续往下（这样会加深你对这三个问题的印象）。
+如果你已经有自己的答案或者实在想不出来则可以继续往下（这样会加深你对这两个问题的印象）。
 
 #### 生物和非生物体的主要区别在哪里？
 
@@ -131,7 +131,7 @@ DNA微阵列（基因芯片）是属于微阵列技术应用中的一种，主�
 
 1991年，美国的Affymetrix公司开始进一步对基因芯片技术进行研发。次年（1992年）Affymetrix公司制成了首张商业化[寡核苷酸](https://baike.baidu.com/item/寡核苷酸/1133384)芯片，并使用前面提到的[Genechip](https://en.wikipedia.org/wiki/Affymetrix)作为其基因芯片的商业名称。
 
-1995年斯坦福大学的 Ron Davis and Pat Brown 实验室首次在《Science》杂志上发表基因表达 谱芯片的论文之后，DNA微阵列即基因芯片技术开始迎来它的黄金发展期。
+1995年斯坦福大学的 Ron Davis and Pat Brown 实验室首次在《Science》杂志上发表基因表达谱芯片的论文之后，DNA微阵列即基因芯片技术开始迎来它的黄金发展期。
 
 1996年，Affymetrix公司运用激光共聚焦及分子生物学技术研制出首块**<u>cDNA</u>**芯片，从此拉开了基因芯片技术研究与开发的帷幕，这一年也被称为基因芯片的元年。[Affymetrix（昂飞）](https://www.affymetrix.com)，[Agilent（安捷伦）](https://www.agilent.com/)，[Illumina](https://www.illumina.com.cn/)等商业公司的成立对于基因芯片技术的进一步和大范围推广应用发挥了重要作用。
 
@@ -295,7 +295,9 @@ PCR技术由[Kary Mullis](https://en.wikipedia.org/wiki/Kary_Mullis)在1983年�
 
 ## 其他阅读资料
 
-通过以上内容，我相信你对基因芯片技术已经有了一些初步的了解。如果你仍然感兴趣，或者希望进一步深入学习，你可能需要集中阅读大量相关资料（即主题阅读）。我汇总了一些与基因芯片学习相关的学习资源，中文只简单在一些平台搜索了关键字，英文资料则进行了[汇总](https://github.com/Miachol/ftp/tree/master/reading/microarray)。
+通过以上内容，我相信你对基因芯片技术已经有了一些初步的了解。如果你仍然感兴趣，或者希望进一步深入学习，你可能需要集中阅读大量相关资料（即主题阅读）。下面列出的一些链接，中文资料只简单在一些平台搜索了关键字，英文资料则进行了[汇总](https://github.com/Miachol/ftp/tree/master/reading/microarray)。
+
+开始阅读其它资料之前，你可以点击[这里](https://learn.genetics.utah.edu/content/labs/microarray/)进行虚拟实验，体验你的第一次虚拟基因芯片实验操作和数据分析（双通道芯片）。
 
 ### 中文
 
