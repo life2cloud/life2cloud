@@ -1,5 +1,5 @@
 ---
-title: 使用Webhook自动更新博客
+title: Node.js的一个实例：Webhook服务自动更新博客
 author: Jianfeng Li
 date: '2017-07-25'
 slug: nodejs-auto-deploy-blog
@@ -18,21 +18,31 @@ tags:
 
 > Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境； Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效； Node.js 的包管理器 npm，是全球最大的开源库生态系统 ---- Node.js 中文网
 
-[Node.js](https://nodejs.org/en/) 在我的第一印象里就是一个类似于PHP、JAVA等在网页后台工作的'语言'，事实上它是使用前端使用最高频的语言JavaScript构建的。
+[Node.js](https://nodejs.org/en/) 是目前最火热的网页后台技术之一。它使用[JavaScript](https://en.wikipedia.org/wiki/JavaScript)语言构建，并基于[CommonJS](https://en.wikipedia.org/wiki/CommonJS)规范开发。JavaScript的事件驱动、非阻塞式 I/O 的模型对于我们进行数据分析流程搭建和一些日常数据分析工作都有借鉴作用。如果以后有时间，我可能会尝试用Javascript结合其他一些计算脚本开发一个生物信息学分析工具。R语言的[future](https://github.com/HenrikBengtsson/future)包也为R用户提供了一种并行和分布式处理方案（目前应用可能还不够广泛），如果你感兴趣可以了解一下。
 
-让我比较诧异的是，一些桌面应用也有用到Node.js，比如我现在正在用的[Atom](https://atom.io/)编辑器。
+Nodejs诞生历程：
 
-## 目的
+- 2009年3月，Ryan Dahl在其博客上宣布准备基于V8创建一个轻量级的Web服务器并提供一套库。
+- 2009年5月，Ryan Dahl在GitHub上发布了最初的版本。
+- 2009年12月和2010年4月，两届JSConf大会都安排了Node的讲座。
+- 2010年年底，Node获得硅谷云计算服务商Joyent公司的资助，其创始人Ryan Dahl加入Joyent公司全职负责Node的发展。
+- 2011年7月，Node在微软的支持下发布了其Windows版本。
+- 2011年11月，Node超越Ruby on Rails，成为GitHub上关注度最高的项目（随后被Bootstrap项目超越，目前仍居第二）。
+- 2012年1月底，Ryan Dahl在对Node架构设计满意的情况下，将掌门人的身份转交给Isaac Z. Schlueter，自己转向一些研究项目。Isaac Z. - Schlueter是Node的包管理器NPM的作者，之后Node的版本发布和bug修复等工作由他接手。
 
-前几日，使用[益辉](https://github.com/yihui)写的[blogdown](https://github.com/rstudio/blogdown)搭建了我的[博客](http://www.life2cloud.com)。本身这个博客服务可以自动检测文章更改并重新渲染网页，由于我总是在Windows下完成各类文章类工作，而网页服务托管在我们实验室的网页服务器上，所以更新文章总是比较麻烦。
+来源：《深入浅出Node.js》
 
-所以，我打算通过使用[Github](http://github.com)的Webhook来监听Push事件，从而自动更新博客。无意中找到了Node.js的实现，看上去也很简洁，所以就写了这篇博文，主要是简单介绍一下如何使用Node.js接收Github的Webhook并完成远程网页服务的自动部署。
+这篇文章我主要是简单介绍了一下如何使用Node.js接收Github的Webhook并完成远程网页服务的自动部署，关于JavaScript语言和Node.js的详细内容大家可以查阅其他资料。
+
+2017年，我使用[益辉](https://github.com/yihui)的[blogdown](https://github.com/rstudio/blogdown)搭建了我的[博客](https://www.life2cloud.com)。这篇文章主要是为了解决一个问题：在本地MAC系统下完成各类文章类工作，然后自动更新远程网页服务。
+
+解决方案：通过[Github](http://github.com)的Webhook来监听Push事件，同时使用Node.js的Webhook服务监听GitHub发送的信息。
 
 ## Node.js 以及依赖包的安装
 
-以下内容为部署Node.js及依赖包（[coding-webhook-handler](https://www.npmjs.com/package/coding-webhook-handler)）所用代码
-
 Node.js主要的安装包可以在[Downlad Page](https://nodejs.org/en/download/)找到，支持Windows、Linux、Mac OS。
+
+以下内容为部署Node.js及依赖包（[coding-webhook-handler](https://www.npmjs.com/package/coding-webhook-handler)）所用代码：
 
 ```bash
 # 源码安装Node.js
@@ -121,15 +131,20 @@ handler.on('push', function (event) {
 cd ${your_blog_dir}
 # Some of Update Command
 git ch master
+# 为了防止冲突发生，我会现在develop分支开发，为了防止远程仓库被强制更新，
+# 我选择切换至早期的commit，然后重新拉下来源码
+git reset --hard 4155b2986e02f569a484d3fc8387e6488
 git br -D develop
 git pull
 git ch develop
 git pull
 ```
 
-我的更新命令很简单，这是因为[blogdown](https://github.com/rstudio/blogdown)本身支持动态监测网页内容更新状况。所以，我只需要更新代码就可以了: `git pull`。
+更新命令很简单，这是因为[blogdown](https://github.com/rstudio/blogdown)本身支持动态监测网页内容更新状况。所以，我只需要更新博客的源代码就可以了: `git pull`。
 
 当然，在部署过程中还需要做一些端口转发工作，比如将监听的端口映射到网页路径上去，我推荐用nginx服务，下面是实例的配置文件 `/etc/nginx/conf.d/your_blog.conf`。另外，需要保证`include /etc/nginx/conf.d/*.conf;`存在于`/etc/nginx/nginx.conf`文件中。
+
+注意：Nginx目前已经将`conf.d`中的文件移动到了`sites-available`，并通过`sites-enabled`目录建立的软连接来启用相应的配置文件。
 
 ```bash
 upstream your_blog_api {
