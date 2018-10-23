@@ -12,6 +12,8 @@ tags:
 
 ## 前言
 
+原文摘录:
+
 Of the diverse ways to study the living world, molecular biology has
 been most remarkable in the speed and breadth of its expansion.
 New data are acquired daily, and new insights into well-studied
@@ -566,3 +568,4 @@ PART IV Gene Regulation                                                         
 Glossary                                                                        2925
 Index                                                                           3050
 ```
+
