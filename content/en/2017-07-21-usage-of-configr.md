@@ -1,7 +1,7 @@
 ---
 title: "Usage of configr"
 author: "Jianfeng Li"
-date: "2017-11-22"
+date: "2017-07-21"
 slug: usage-of-configr
 categories:
   - tutorial
@@ -23,6 +23,7 @@ config.json <- system.file("extdata", "config.json", package = "configr")
 config.ini <- system.file("extdata", "config.ini", package = "configr")
 config.yaml <- system.file("extdata", "config.yaml", package = "configr")
 config.toml <- system.file("extdata", "config.toml", package = "configr")
+config.glob <- system.file('extdata', 'config.global.toml', package='configr')
 ```
 
 ## Check the configuration file type
@@ -562,6 +563,26 @@ parse.extra(list.raw, glue.parse = TRUE, glue.flag = "!!glue")
 #> 
 #> $nochange
 #>  [1]  1  2  3  4  5  6  7  8  9 10
+
+read.config(config.glob, global.vars.field = NULL)
+#> List of 5
+#>  $ global_vars: chr [1:2] "gvar_1" "gvar_2"
+#>  $ gvar_1     : chr "G1"
+#>  $ gvar_2     : chr "G3"
+#>  $ subsection :List of 2
+#>   ..$ value_1: chr "{{gvar_1}}/value_1"
+#>   ..$ value_2: chr "{{gvar_2}}/value_2"
+#>  $ title      : chr "Demo of global vars of configuration files"
+
+read.config(config.glob)
+#> List of 5
+#>  $ global_vars: chr [1:2] "gvar_1" "gvar_2"
+#>  $ gvar_1     : chr "G1"
+#>  $ gvar_2     : chr "G3"
+#>  $ subsection :List of 2
+#>   ..$ value_1: chr "G1/value_1"
+#>   ..$ value_2: chr "G3/value_2"
+#>  $ title      : chr "Demo of global vars of configuration files"
 ```
 
 ## Others

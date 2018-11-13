@@ -39,13 +39,17 @@ Email：lee_jianfeng@sjtu.edu.cn；主页：<http://www.life2cloud.com>；现正
 作为主要作者：
 
 - [configr](https://github.com/Miachol/configr)：整合多个配置文件解析器（jsonlite, ini, yaml, RcppTOML），并对其进行一些语法扩展
-- [BioInstaller](https://github.com/JhuangLab/BioInstaller)：一种生物软件包及常用数据库/文件的下载器（部分内置安装脚本）
+- [BioInstaller](https://github.com/JhuangLab/BioInstaller)：可以用来构建交互式Shiny应用；同时也可以用来下载数百种生物软件包及常用数据库/文件。
 - [ngstk](https://github.com/JhuangLab/ngstk):用于二代测序数据的质量控制、可视化、数据格式转换的工具包
 - [annovarR](https://github.com/JhuangLab/annovarR):用于基因组和转录组变异数据的注释库整合
 
 ### Python包
 
 - [iseq](https://github.com/JhuangLab/iseq):一种基于二代测序数据的基因变异分析工具
+
+### Node包
+
+- [ngsjs](https://github.com/ngsjs/ngsjs)
 
 ### 网页服务
 
@@ -62,10 +66,11 @@ Email：lee_jianfeng@sjtu.edu.cn；主页：<http://www.life2cloud.com>；现正
 
 - #Liu YF, #Wang BY, #Zhang WN, #Huang JY, #Li BS, Zhang M, Jiang L, **Li JF**, Wang MJ, Dai YJ, Zhang ZG, Wang Q, Kong J, Chen B, Zhu YM, Weng XQ, Shen ZX, Li JM, Wang J, Yan XJ, Li Y, Liang YM, Liu L, Chen XQ, Zhang WG, Yan JS, Hu JD, Shen SH, Chen J, Gu LJ, Pei D, Li Y, Wu G, Zhou X, Ren RB, Cheng C, Yang JJ, Wang KK, Wang SY, Zhang J, Mi JQ, Pui CH, Tang JY, Chen Z, Chen SJ. Genomic Profiling of Adult and Pediatric B-cell Acute Lymphoblastic Leukemia. **EBioMedicine**. 2016 Jun;8:173-83. doi: 10.1016/j.ebiom.2016.04.038. Epub 2016 May 13. PubMed PMID: 27428428; PubMed Central PMCID: PMC4919728.
 - #Bing Chen, #Lu Jiang, #Meng-Ling Zhong, **#Jian-Feng Li**, #Ben-Shang Li, Li-Jun Peng, Yu-Ting Dai, Bo-Wen Cui, Tian-Qi Yan, Wei-Na Zhang, Xiang-Qin Weng, Yin-Yin Xie, Jing Lu, Rui-Bao Ren, Su-Ning Chen, Jian-Da Hu, De-Pei Wu, Zhu Chen, Jing-Yan Tang, Jin-Yan Huang, Jian-Qing Mi, and Sai-Juan Chen. Identification of fusion genes and characterization of transcriptome features in T-cell acute lymphoblastic leukemia. **Proceedings of the National Academy of Sciences**. 2017. doi:10.1073/pnas.1717125115. PubMed PMID: 29279377.
-- **#Jianfeng Li**, #Bowen Cui, Yuting Dai, Ling Bai, Jinyan Huang. BioInstaller: a comprehensive R package to construct interactive and reproducible biological data analysis applications based on the R platform. **Peerj**. 2018 Oct;6:e5853. doi: 10.7717/peerj.5853
+- **#Jianfeng Li**, #Bowen Cui, Yuting Dai, Ling Bai, Jinyan Huang. BioInstaller: a comprehensive R package to construct interactive and reproducible biological data analysis applications based on the R platform. **Peerj**. 2018 Oct;6:e5853. doi: 10.7717/peerj.5853. PMID: 30402350 PMCID: PMC6215441
 - **#Jian-Feng Li**, #Yu-Ting Dai, #Henrik Lilljebjörn, Shu-Hong Shen, Bo-Wen Cui, Ling Bai, Yuan-Fang Liu, Mao-Xiang Qian, Yasuo Kubota, Hitoshi Kiyoi, Itaru Matsumura, Yasushi Miyazaki, Linda Olsson, Ah Moy Tan, Hany Ariffin, Jing Chen, Junko Takita, Takahiko Yasuda, Hiroyuki Mano, Bertil Johansson, Jun J. Yang, Allen Eng-Juh Yeoh, Fumihiko Hayakawa, Zhu Chen, Ching-Hon Pui, Thoas Fioretos, Sai-Juan Chen, Jin-Yan Huang. 2018 (In press)
 - QAP: an integrated software for virus community sequencing data analysis. (Co-first 3rd, Submitted, 2018)
-- annovarR: a variant annotation and visualization system based on R and Shiny framework (Co-first 1st, Preparing, 2018)
+- annovarR: a variant annotation and visualization system based on R and Shiny framework (Co-first 1st, Preparing, 2019)
+- A set of command line tools/workflows and R shiny plugins for exploring next-generation sequencing data. (Preparing, 2019)
 
 ### 中文
 
