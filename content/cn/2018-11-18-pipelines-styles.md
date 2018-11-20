@@ -162,12 +162,12 @@ Health System](https://doi.org/10.1016/j.cell.2018.08.012). *Cell*. 2018 Aug 23;
 
 Makefile流主要是基于软件开发工具[Makefile](https://zh.wikipedia.org/wiki/Makefile)的rule、target语法运行流程。在[snakemake](https://snakemake.readthedocs.io/en/stable/)工具出现之后（使得数据分析流程支持CWL），使用`Makefile`式Rule文件构建生物信息学分析流程的用户迅速增加。
 
-[pyflow-ATACseq](https://github.com/crazyhottommy/pyflow-ATACseq)项目提供的ATAC-seq数据分析流程：
+[pyflow-ATACseq](https://github.com/crazyhottommy/pyflow-ATACseq)项目提供的ATAC-seq数据分析流程（**图四**）：
 
 <p align = "center">
 <img src = "https://raw.githubusercontent.com/crazyhottommy/pyflow-ATACseq/master/rule_diagram.png
 " />
-<p align = "center"><b>图五</b> ATAC-seq Snakemake示例流程图 </p>
+<p align = "center"><b>图四</b> ATAC-seq Snakemake示例流程图 </p>
 </p>
 
 **snakemake示例文件**：
@@ -193,11 +193,11 @@ rule plot:
 
 很多计算机软件自动测试流程和构建工具也主要基于配置文件来构建和执行：如[circleci](https://circleci.com/)、[travis](https://www.travis-ci.org/)。
 
-这里给出一个基于配置文件的工具示例（图六）：
+这里给出一个基于配置文件的工具示例（图五）：
 
 <p align = "center">
 <img src = "https://raw.githubusercontent.com/wagoodman/bashful/master/doc/demo.gif" />
-<p align = "center"><b>图六</b> bashful执行输出 </p>
+<p align = "center"><b>图五</b> bashful执行输出 </p>
 </p>
 
 **bashful 输入文件格式及部分字段：**
@@ -253,32 +253,32 @@ tasks:
 - 高质量可视化视图的兴起（颜值的时代）
 - 已有工具使用起来有诸多不便之处，使用门槛相对较高
 
-**Jupyter notebook示例：**
+**Jupyter notebook示例（图六）：**
 
 <p align = "center">
 <img src = "https://www.dataquest.io/blog/content/images/interface-screenshot.png" />
-<p align = "center"><b>图七</b> Jupyter notebook </p>
+<p align = "center"><b>图六</b> Jupyter notebook </p>
 </p>
 
-**R markdown示例：**
+**R markdown示例（图七）：**
 
 <p align = "center">
 <img src = "https://rosannavanhespenresearch.files.wordpress.com/2016/02/rcode-example.png" />
-<p align = "center"><b>图八</b> Jupyter notebook </p>
+<p align = "center"><b>图七</b> R markdown </p>
 </p>
 
 以R语言为例，在一个R包开发过程中，常常集成R markdown文件来动态更新文档、教程和项目主页。
 
-比如其中我开发的两个项目[configr](https://github.com/Miachol/configr)、[BioInstaller](https://github.com/JhuangLab/BioInstaller)：
+比如其中我开发的两个项目[configr](https://github.com/Miachol/configr)（**图八**）、[BioInstaller](https://github.com/JhuangLab/BioInstaller)（**图九**）：
 
 <p align = "center">
 <img src = "https://raw.githubusercontent.com/Miachol/ftp/master/files/images/configr.png" />
-<p align = "center"><b>图九</b> configr 说明文档 </p>
+<p align = "center"><b>图八</b> configr 说明文档 </p>
 </p>
 
 <p align = "center">
 <img src = "https://raw.githubusercontent.com/Miachol/ftp/master/files/images/bioinstaller.png" />
-<p align = "center"><b>图十</b> BioInstaller 项目主页</p>
+<p align = "center"><b>图九</b> BioInstaller 项目主页</p>
 </p>
 
 相关的R包：
