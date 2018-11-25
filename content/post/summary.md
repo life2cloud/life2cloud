@@ -19,8 +19,8 @@ At present, I mainly engaged in NGS data integration analysis and bioinformatics
 <br/>
 <div align = center>
     <img src="https://github.com/JhuangLab/BioInstaller/raw/master/man/figures/logo.png">
-    <img src="https://github.com/JhuangLab/ngstk/raw/develop/man/figures/logo.png">
-    <img src="https://github.com/JhuangLab/annovarR/raw/develop/man/figures/logo.png">
+    <img src="https://github.com/JhuangLab/ngstk/raw/master/man/figures/logo.png">
+    <img src="https://github.com/JhuangLab/annovarR/raw/master/man/figures/logo.png">
 </div>
 <br/>
 
