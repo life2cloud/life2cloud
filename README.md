@@ -7,3 +7,4 @@ git clone https://github.com/life2cloud/life2cloud.git
 ```
 
 The website is built via the R package [**blogdown**](https://github.com/rstudio/blogdown). Please read its documentation for how to use it.
+
