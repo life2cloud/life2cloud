@@ -11,11 +11,11 @@ tags:
 
 ## 简介
 
-这篇博客主要是记录一些常用或者比较好玩的网站，有一部分网站会和我这个[项目](https://github.com/JhuangLab/Bioinformatics-Resources)有重合（随机的），之前都是用的浏览器收藏夹，我现在把这些网站以博文的形式呈现（定期更新），希望对你有一些帮助，如果你有好的资源，也可以合并进来。
+这篇博客主要是记录一些常用或者比较好玩的网站，有一部分网站会和我这个[项目](https://github.com/openbiox/awosome-bioinformatics)有重合（随机的），之前都是用的浏览器收藏夹，我现在把这些网站以博文的形式呈现（定期更新），希望对你有一些帮助，如果你有好的资源，也可以合并进来。
 
-推荐你阅读这篇博文的[notion](https://www.notion.so/sjtu/2018-09-02-curated-list-websites-1d1187dfc4b744aca960ce365f294d44)版本（因为notaion可以嵌入书签，就可以显示网站一些元信息），而Markdown版本就只有这个网站的链接了。
+推荐你阅读这篇博文的 [notion](https://www.notion.so/sjtu/2018-09-02-curated-list-websites-1d1187dfc4b744aca960ce365f294d44)版本（因为notaion可以嵌入书签，就可以显示网站一些元信息），而Markdown版本就只有这个网站的链接了。
 
-最近，偶然发现了一个叫[Memex](https://worldbrain.io/)的浏览器插件，它支持对浏览过或者打了书签的网页进行全文索引，结合标签和合集的分类功能，基本可以满足稍后阅读和网页收藏的所有需求，唯一的不足就是目前还不支持云同步。另外，再利用[Paste](https://pasteapp.me/)管理非浏览器界面的稍后阅读和分类摘录（文字、图片、文件统统都可以）非常方便。
+最近，偶然发现了一个叫 [Memex](https://worldbrain.io/) 的浏览器插件，它支持对浏览过或者打了书签的网页进行全文索引，结合标签和合集的分类功能，基本可以满足稍后阅读和网页收藏的所有需求，唯一的不足就是目前还不支持云同步。另外，再利用 [Paste](https://pasteapp.io/) 管理非浏览器界面的稍后阅读和分类摘录（文字、图片、文件统统都可以）非常方便。
 
 ## 代码托管
 
@@ -160,7 +160,6 @@ tags:
 
 ### 国内
 
-- [Paste - smart cloud clipboard history & snippet manager for Mac](https://pasteapp.me/)
 - [Infinity新标签页](https://cn.infinitynewtab.com/)
 - [工作必备效率应用 | 印象笔记](https://www.yinxiang.com/)
 - [有道云笔记｜5000万用户的选择](http://note.youdao.com/)
@@ -173,6 +172,8 @@ tags:
 - [WasteNoTime](https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch)
 - [Best Note Taking App | Organize Your Notes with Evernote](http://www.evernote.com/)
 - [EndNote | Clarivate Analytics](https://endnote.com/)
+- [Paste - smart cloud clipboard history & snippet manager for Mac](https://pasteapp.io/)
+- [How to View Clipboard (copy-paste) History on Mac](https://www.softwarehow.com/view-clipboard-history-mac/)
 
 ## 发布软件包
 
