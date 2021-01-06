@@ -37,7 +37,7 @@ Good at genomics-related data analysis (DNA-seq and RNA-seq-based)
 - [configr](https://github.com/Miachol/configr)
 - [BioInstaller](https://github.com/JhuangLab/BioInstaller)
 - [ngstk](https://github.com/JhuangLab/ngstk)
-- [annovarR](https://github.com/JhuangLab/annovarR)
+- [anor](https://github.com/clindet/anor)
 - [iseq](https://github.com/JhuangLab/iseq)
 - [ngsjs](https://github.com/ngsjs/ngsjs)
 - [bget](https://github.com/openbiox/bget)
@@ -60,7 +60,7 @@ Good at genomics-related data analysis (DNA-seq and RNA-seq-based)
 - Yi Zhou, Xingli Zhu, Yuting Dai, Shumin Xiong, Chuijin Wei, Pei Yu, Yuewen Tang, Liang Wu, **Jianfeng Li**, Dan Liu, Yanlin Wang, Zhu Chen, Sai-Juan Chen,Jinyan Huang, and Lin Cheng. Chemical Cocktail Induces Hematopoietic Reprogramming and Expands Hematopoietic Stem/Progenitor Cells. **Advanced Science**. 2019 Nov 11;7(1):1901785. doi: 10.1002/advs.201901785. PubMed PMID: 31921559
 - Xiong Jie, Cui Bo-Wen, Wang Nan, Dai Yu-Ting, Zhang Hao, Wang Chao-Fu, Zhong Hui-Juan, Cheng Shu, Ou-Yang Bin-Shen, Hu Yu, Zhang Xi, Xu Bin, Qian Wen-Bin, Tao Rong, Yan Feng, Hu Jian-Da, Hou Ming, Ma Xue-Jun, Wang Xin, Liu Yuan-Hua, Zhu Zun-Min, Huang Xiao-Bin, Liu Li, Wu Chong-Yang, Huang Li, Shen Yun-Feng, Huang Rui-Bin, Xu Jing-Yan, Wang Chun, Wu De-Pei, Yu Li, **Li Jian-Feng**, Xu Peng-Peng, Wang Li, Huang Jin-Yan, Chen Sai-Juan, Zhao Wei-Li. Genomic and Transcriptomic Characterization of Natural Killer T Cell Lymphoma. **Cancer Cell** . 2019 Mar 16;37(3):403-419.e6. doi: 10.1016/j.ccell.2020.02.005. PubMed PMID: 32183952
 - #Mingjie Wang, **#Jianfeng Li**, Xiaonan Zhang, Yue Han, Demin Yu, Donghua Zhang, Zhenghong Yuan, Zhitao Yang, Jinyan Huang, Xin-Xin Zhang. An integrated software for virus community sequencing data analysis. **BMC Genomics**. 2020 May 15;21(1):363. doi: 10.1186/s12864-020-6744-4. PubMed PMID: 32414327
-- **#Jianfeng Li**, Yuting Dai, Bowen Cui, Liang Wu, Jinyan Huang. Emerging Molecular Subtypes and Therapeutic Targets in Bcell Precursor Acute Lymphoblastic Leukemia. **Frontiers of Medicine**. 2020 (In Press)
+- **#Jianfeng Li**, Yuting Dai, Bowen Cui, Liang Wu, Jinyan Huang. Emerging Molecular Subtypes and Therapeutic Targets in Bcell Precursor Acute Lymphoblastic Leukemia. **Frontiers of Medicine**. 2021 Jan 5. doi: 10.1007/s11684-020-0821-6. Epub ahead of print. PMID: 33400146.
 
 #### Colloquium papers
 
